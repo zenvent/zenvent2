@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@astrojs/rss':
-    specifier: 4.0.1
-    version: 4.0.1
+    specifier: 4.0.4
+    version: 4.0.4
   astro:
     specifier: 4.2.6
     version: 4.2.6(typescript@5.3.3)
@@ -227,8 +227,8 @@ packages:
     dependencies:
       prismjs: 1.29.0
 
-  /@astrojs/rss@4.0.1:
-    resolution: {integrity: sha512-fzXWsrAp17atO02OZJETM8e8McRz+dNWzMeO7ENb6xgod2nWj5mH/auPBFs1a9FzMUi1nOQmzSPHO1hxZZpkwQ==}
+  /@astrojs/rss@4.0.4:
+    resolution: {integrity: sha512-VmHmRoC62j9iR0ez2Qumpn4LTQ9/4txOmGwGBmCSI+PzSFJI5M/qdao656oT9Logjh7CDwcPrCGQEEEi3HF75A==}
     dependencies:
       fast-xml-parser: 4.3.2
       kleur: 4.1.5
