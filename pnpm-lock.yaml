@@ -9,8 +9,8 @@ dependencies:
     specifier: 4.0.1
     version: 4.0.1
   astro:
-    specifier: 4.2.6
-    version: 4.2.6(typescript@5.3.3)
+    specifier: 4.3.6
+    version: 4.3.6(typescript@5.3.3)
   astro-font:
     specifier: ^0.0.72
     version: 0.0.72
@@ -18,13 +18,13 @@ dependencies:
 devDependencies:
   '@astrojs/mdx':
     specifier: 2.0.3
-    version: 2.0.3(astro@4.2.6)
+    version: 2.0.3(astro@4.3.6)
   '@astrojs/sitemap':
     specifier: 3.0.4
     version: 3.0.4
   '@astrojs/tailwind':
     specifier: 5.1.0
-    version: 5.1.0(astro@4.2.6)(tailwindcss@3.3.5)
+    version: 5.1.0(astro@4.3.6)(tailwindcss@3.3.5)
   '@pagefind/default-ui':
     specifier: ^1.0.4
     version: 1.0.4
@@ -144,12 +144,12 @@ packages:
     resolution: {integrity: sha512-o/ObKgtMzl8SlpIdzaxFnt7SATKPxu4oIP/1NL+HDJRzxfJcAkOTAb/ZKMRyULbz4q+1t2/DAebs2Z1QairkZw==}
     dev: true
 
-  /@astrojs/compiler@2.3.4:
-    resolution: {integrity: sha512-33/YtWoBCE0cBUNy1kh78FCDXBoBANX87ShgATlAHECYbG2+buNTAgq4Xgz4t5NgnEHPN21GIBC2Mvvwisoutw==}
-    dev: true
-
   /@astrojs/compiler@2.5.1:
     resolution: {integrity: sha512-o2hKiFJXZOm1Gov+RGXSWnKlnb/UF7KRTx/Y2uazYe3+MrLY+sqLN+yB4EH2bElc0l1K9cDb4mZSejuq563rGQ==}
+    dev: true
+
+  /@astrojs/compiler@2.5.3:
+    resolution: {integrity: sha512-jzj01BRv/fmo+9Mr2FhocywGzEYiyiP2GVHje1ziGNU6c97kwhYGsnvwMkHrncAy9T9Vi54cjaMK7UE4ClX4vA==}
 
   /@astrojs/internal-helpers@0.2.1:
     resolution: {integrity: sha512-06DD2ZnItMwUnH81LBLco3tWjcZ1lGU9rLCCBaeUCGYe9cI0wKyY2W3kDyoW1I6GmcWgt1fu+D1CTvz+FIKf8A==}
@@ -175,8 +175,8 @@ packages:
       - supports-color
     dev: true
 
-  /@astrojs/markdown-remark@4.2.0:
-    resolution: {integrity: sha512-qQB+LoxmIqzkhLXaQAzfzlBxZU1jeQYailsifurz89WeY0Q8ywIj8uQQSyqxb7rPPg3ZfdNdxsN9lF5UaCRn0w==}
+  /@astrojs/markdown-remark@4.2.1:
+    resolution: {integrity: sha512-2RQBIwrq+2qPYtp99bH+eL5hfbK0BoxXla85lHsRpIX/IsGqFrPX6pXI2cbWPihBwGbKCdxS6uZNX2QerZWwpQ==}
     dependencies:
       '@astrojs/prism': 3.0.0
       github-slugger: 2.0.0
@@ -195,7 +195,7 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@astrojs/mdx@2.0.3(astro@4.2.6):
+  /@astrojs/mdx@2.0.3(astro@4.3.6):
     resolution: {integrity: sha512-wFjQX5CihU5B4UAQNwc2R48ph0flpc6/yvDCFANE0agtgI2+BaVcAjuW0EhGOQCZ65dQDqnFKE0lvGs7EADYpg==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
@@ -204,7 +204,7 @@ packages:
       '@astrojs/markdown-remark': 4.0.1
       '@mdx-js/mdx': 3.0.0
       acorn: 8.11.2
-      astro: 4.2.6(typescript@5.3.3)
+      astro: 4.3.6(typescript@5.3.3)
       es-module-lexer: 1.4.1
       estree-util-visit: 2.0.0
       github-slugger: 2.0.0
@@ -241,13 +241,13 @@ packages:
       zod: 3.22.4
     dev: true
 
-  /@astrojs/tailwind@5.1.0(astro@4.2.6)(tailwindcss@3.3.5):
+  /@astrojs/tailwind@5.1.0(astro@4.3.6)(tailwindcss@3.3.5):
     resolution: {integrity: sha512-BJoCDKuWhU9FT2qYg+fr6Nfb3qP4ShtyjXGHKA/4mHN94z7BGcmauQK23iy+YH5qWvTnhqkd6mQPQ1yTZTe9Ig==}
     peerDependencies:
       astro: ^3.0.0 || ^4.0.0
       tailwindcss: ^3.0.24
     dependencies:
-      astro: 4.2.6(typescript@5.3.3)
+      astro: 4.3.6(typescript@5.3.3)
       autoprefixer: 10.4.16(postcss@8.4.31)
       postcss: 8.4.31
       postcss-load-config: 4.0.2(postcss@8.4.31)
@@ -1481,8 +1481,8 @@ packages:
       tslib: 2.4.1
     dev: true
 
-  /@graphql-codegen/plugin-helpers@5.0.1(graphql@15.8.0):
-    resolution: {integrity: sha512-6L5sb9D8wptZhnhLLBcheSPU7Tg//DGWgc5tQBWX46KYTOTQHGqDpv50FxAJJOyFVJrveN9otWk9UT9/yfY4ww==}
+  /@graphql-codegen/plugin-helpers@5.0.3(graphql@15.8.0):
+    resolution: {integrity: sha512-yZ1rpULIWKBZqCDlvGIJRSyj1B2utkEdGmXZTBT/GVayP4hyRYlkd36AJV/LfEsVD8dnsKL5rLz2VTYmRNlJ5Q==}
     peerDependencies:
       graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
@@ -1492,7 +1492,7 @@ packages:
       graphql: 15.8.0
       import-from: 4.0.0
       lodash: 4.17.21
-      tslib: 2.5.3
+      tslib: 2.6.2
     dev: true
 
   /@graphql-codegen/schema-ast@4.0.0(graphql@15.8.0):
@@ -1500,7 +1500,7 @@ packages:
     peerDependencies:
       graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
-      '@graphql-codegen/plugin-helpers': 5.0.1(graphql@15.8.0)
+      '@graphql-codegen/plugin-helpers': 5.0.3(graphql@15.8.0)
       '@graphql-tools/utils': 10.0.7(graphql@15.8.0)
       graphql: 15.8.0
       tslib: 2.5.3
@@ -1528,7 +1528,7 @@ packages:
     peerDependencies:
       graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
-      '@graphql-codegen/plugin-helpers': 5.0.1(graphql@15.8.0)
+      '@graphql-codegen/plugin-helpers': 5.0.3(graphql@15.8.0)
       '@graphql-codegen/typescript': 4.0.1(graphql@15.8.0)
       '@graphql-codegen/visitor-plugin-common': 4.0.1(graphql@15.8.0)
       auto-bind: 4.0.0
@@ -1544,7 +1544,7 @@ packages:
     peerDependencies:
       graphql: ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
-      '@graphql-codegen/plugin-helpers': 5.0.1(graphql@15.8.0)
+      '@graphql-codegen/plugin-helpers': 5.0.3(graphql@15.8.0)
       '@graphql-codegen/schema-ast': 4.0.0(graphql@15.8.0)
       '@graphql-codegen/visitor-plugin-common': 4.0.1(graphql@15.8.0)
       auto-bind: 4.0.0
@@ -1581,7 +1581,7 @@ packages:
     peerDependencies:
       graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
-      '@graphql-codegen/plugin-helpers': 5.0.1(graphql@15.8.0)
+      '@graphql-codegen/plugin-helpers': 5.0.3(graphql@15.8.0)
       '@graphql-tools/optimize': 2.0.0(graphql@15.8.0)
       '@graphql-tools/relay-operation-optimizer': 7.0.0(graphql@15.8.0)
       '@graphql-tools/utils': 10.0.7(graphql@15.8.0)
@@ -3670,7 +3670,7 @@ packages:
     hasBin: true
     dependencies:
       '@graphql-codegen/core': 2.6.8(graphql@15.8.0)
-      '@graphql-codegen/plugin-helpers': 5.0.1(graphql@15.8.0)
+      '@graphql-codegen/plugin-helpers': 5.0.3(graphql@15.8.0)
       '@graphql-codegen/typescript': 4.0.1(graphql@15.8.0)
       '@graphql-codegen/typescript-generic-sdk': 3.1.0(graphql-tag@2.12.6)(graphql@15.8.0)
       '@graphql-codegen/typescript-operations': 4.0.1(graphql@15.8.0)
@@ -7641,10 +7641,10 @@ packages:
     resolution: {integrity: sha512-k9ASvY8pa6qttM+fvNJCILxxjftfNg/ou5cjd25SVHsc7moplezGGM9fgMUyf24SRYt8ShO603oHRDn2KqwxMg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     dependencies:
-      '@astrojs/compiler': 2.3.4
+      '@astrojs/compiler': 2.5.1
       '@typescript-eslint/scope-manager': 5.62.0
       '@typescript-eslint/types': 5.62.0
-      astrojs-compiler-sync: 0.3.3(@astrojs/compiler@2.3.4)
+      astrojs-compiler-sync: 0.3.3(@astrojs/compiler@2.5.1)
       debug: 4.3.4
       eslint-visitor-keys: 3.4.3
       espree: 9.6.1
@@ -7657,14 +7657,14 @@ packages:
     resolution: {integrity: sha512-FUjIerovSg2lsfJfvvqY23hgvc++gHi69ikFkxm0mqO3MPFykK5ppeUuROUjhNbE6vwdD8MpiJOy1CR5S0g/lQ==}
     dev: false
 
-  /astro@4.2.6(typescript@5.3.3):
-    resolution: {integrity: sha512-k5i8pEI2r45JTkoE0I4JyhOH/dZFpjUA4AONbRd9Gr1LtnGOhKHDftiYOrRLUGx91q7BzoW3DOk+h4yZM4yC3g==}
+  /astro@4.3.6(typescript@5.3.3):
+    resolution: {integrity: sha512-VYJGsBygMtPM/qTRgn5QdxkSILgjpW2uHVw3snp/Gkl+N9uRAAnuYxrUO7wkbLejfrmlb0nZyyKG+H5VDQPbeg==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
-      '@astrojs/compiler': 2.5.1
+      '@astrojs/compiler': 2.5.3
       '@astrojs/internal-helpers': 0.2.1
-      '@astrojs/markdown-remark': 4.2.0
+      '@astrojs/markdown-remark': 4.2.1
       '@astrojs/telemetry': 3.0.4
       '@babel/core': 7.23.6
       '@babel/generator': 7.23.6
@@ -7716,6 +7716,7 @@ packages:
       semver: 7.5.4
       server-destroy: 1.0.1
       shikiji: 0.9.19
+      shikiji-core: 0.9.19
       string-width: 7.0.0
       strip-ansi: 7.1.0
       tsconfck: 3.0.0(typescript@5.3.3)
@@ -7739,13 +7740,13 @@ packages:
       - terser
       - typescript
 
-  /astrojs-compiler-sync@0.3.3(@astrojs/compiler@2.3.4):
+  /astrojs-compiler-sync@0.3.3(@astrojs/compiler@2.5.1):
     resolution: {integrity: sha512-LbhchWgsvjvRBb5n5ez8/Q/f9ZKViuox27VxMDOdTUm8MRv9U7phzOiLue5KluqTmC0z1LId4gY2SekvoDrkuw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       '@astrojs/compiler': '>=0.27.0'
     dependencies:
-      '@astrojs/compiler': 2.3.4
+      '@astrojs/compiler': 2.5.1
       synckit: 0.8.5
     dev: true
 
